@@ -1,0 +1,51 @@
+@media only screen and (max-width: 767px) {
+    header .promo .promo_header{
+        font-size: 25px;
+        margin-top: 55px;
+
+    }
+    header .promo .promo_descr{
+        font-size: 15px;
+    }
+    footer .foot_first{
+        width: 100%;
+    }
+    footer .foot_last{
+        margin-top: 15px;
+    }
+    footer .footer_foot p a{
+        margin-right: auto;
+    }
+    footer .footer_foot p .footer_policy{
+        margin-right: 12px;
+    }
+    .down .footer_item{
+        margin-top: 40px;
+    }
+    #button {
+        display: none;
+    }
+}
+
+/* Hover Effects on Card */
+@media (min-width: 992px) {
+    .pricing .card:hover {
+        margin-top: -.25rem;
+        margin-bottom: .25rem;
+        box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+    .pricing .card:hover .btn {
+        opacity: 1;
+    }
+}
+@media screen and (max-width: 500px) {
+    .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+    .promo_item{
+        width: 100%;
+    }
+}
+
+

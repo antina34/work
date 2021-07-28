@@ -12,24 +12,15 @@
     </a>
 </p>
 
-## To set up the project on Docker
 
-1. Clone the repository.
-2. Run `cd mybitcoin`.
-3. Run `docker-compose up`. (Docker must be installed)
+## What was made by Olga Auzina you can find in:
 
-## To set up the project on Laravel Homestead:
+1. resources/views/landing.blade.php
 
-1. Clone into a repository, copy .env.example to .env and set the db connection details
+2. resources/views/landing/privacy-policy.blade.php
 
-2. Run `composer install && npm install && php artisan key:generate && php artisan deploy && npm run dev`
+3. resources/views/layouts/landing.blade.php
 
-3. Go to the defined path for example `mybitcoin.test` to view the project
+4. public/assets/css/landing/mobile.css
 
-    * User email: `user@mybitcoin.ai` User Password: `us3rus3r`
-    
-    * Admin email: `admin@mybitcoin.ai` Admin Password: `adm1nadm1n`
-
-## Development Workflow
-
-Refer the wiki page in https://gitlab.beehub.dev/mbtc/mybitcoin/-/wikis/home named `Working with features - Step by step guide`.
+5. public/assets/css/landing/style.css

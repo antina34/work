@@ -13,7 +13,7 @@
 </p>
 
 
-## What was made by Olga Auzina you can find in:
+## What was made by Me you can find in:
 
 1. resources/views/landing.blade.php
 
